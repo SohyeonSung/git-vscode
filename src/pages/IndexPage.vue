@@ -11,7 +11,8 @@
 <script>
 import { defineComponent } from 'vue'
 
-export default defineComponent({
-  name: 'IndexPage'
-})
+export default {
+  name: 'IndexPage',
+  title : "Vue를 재미있게 공부해봅시다!"
+}
 </script>
