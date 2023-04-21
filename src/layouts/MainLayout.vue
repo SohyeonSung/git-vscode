@@ -69,6 +69,12 @@ const linksList = [
     link: '/todo'
   },
   {
+    title: 'MUSIC',
+    caption: '중간고사 과제',
+    icon: 'music',
+    link: '/music'
+  },
+  {
     title: 'Docs',
     caption: 'quasar.dev',
     icon: 'school',
