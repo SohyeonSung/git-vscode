@@ -69,10 +69,10 @@ const linksList = [
     link: '/todo'
   },
   {
-    title: 'MUSIC',
+    title: 'WEATHER',
     caption: '중간고사 과제',
-    icon: 'music',
-    link: '/music'
+    icon: 'weather',
+    link: '/weather'
   },
   {
     title: 'Docs',
