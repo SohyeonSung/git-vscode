@@ -2,7 +2,7 @@
   <div id="WEATHER">
     <main>
       <div class="search-box">
-        <input type="text" class="search-bar" placeholder="오늘의 옷차림 . ."/>
+        <input type="text" class="search-bar" placeholder="오늘의 옷차림 . . 궁금한사람"/>
       </div>
     </main>
   </div>
