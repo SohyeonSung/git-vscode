@@ -1,40 +1,58 @@
 <template>
-  <div id="WEATHER">
+  <div id="app">
     <main>
-      <div class="search-box">
-        <input type="text" class="search-bar" placeholder="오늘의 옷차림 . . 궁금한사람"/>
+      <div class="weather">
+        <div class="location-box">
+          <div class="location">Seoul, South Korea</div>
+          <div class="date">Friday 27 April 2023</div>
+        </div>
+        <div class="weather-box">
+          <div class="temperture">10℃</div>
+        </div>
       </div>
     </main>
   </div>
 </template>
 
 <script>
-export default {
-  name:"WEATHER",
-  title:"중간고사 과제",
-  data(){
-
-  }
-
-}
+export default {};
 </script>
 
-<style>
-/* SEARCH-BOX 꾸미기 */
-main {
-  padding: 50px;
-}
-.search-box {
-  width: 100%;
-  margin-bottom: 30px;
-}
-.search-box .search-bar {
-  display: block;
-  width: 100%;
-  padding: 15px;
 
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  background-size: cover;
+  background-position: bottom;
+  background-color: cadetblue;
+}
+.location-box .location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+.location-box .date {
+  color: #fff;
   font-size: 20px;
-  border:none;
-  background-color: hsla(228, 3%, 72%, 0.801);
+  font-weight: 300;
+  text-align: center;
+}
+.weather-box {
+  text-align: center;
+}
+.weather-box .temperture {
+  display: inline-block;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  margin: 30px 0px;
 }
 </style>
