@@ -12,6 +12,7 @@
       </div>
     </main>
   </div>
+
   <q-card-section class="row text-center">
     <q-card-section class="col text-h4 text-primary">
       {{  header || "" }}
@@ -19,10 +20,10 @@
       <q-btn
         v-if="editing"
         @click="doEdit(false)"
-        unelevated
-        rounded
-        icon-right="clear"
-        label="Cancel"
+        color="primary"
+            unelevated
+            rounded
+            label="CANCEL"
       ></q-btn>
       <q-btn
       v-else
@@ -63,8 +64,8 @@
         dense
         padding
         clickable
-        v-ripple
-      >
+        v-ripple>
+
         <q-item-section>
           {{ item.label }}
         </q-item-section>
@@ -76,16 +77,15 @@
   <q-item-section class="row text-center">
         <q-card-section>
           <span v-if="items.length === 0"
-            > 당신의 옷차림을 공유해주세요!</span
-          >
+            > 당신의 옷차림을 공유해주세요!</span>
         </q-card-section>
   </q-item-section>
 </template>
 
 <script>
 export default {
-  name:"ShoppingList",
-  title:"쇼핑 리스트",
+  name:"",
+  title:"Weather",
   data(){
     return {
       header:"",
