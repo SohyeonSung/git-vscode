@@ -8,6 +8,7 @@ const routes = [
       { path: '/shop', component: () => import('pages/ShoppingList.vue') },
       { path: '/todo', component: () => import('pages/Todo.vue') },
       { path: '/weather', component: () => import('pages/Weather.vue') },
+      { path: "/dbtodo", component: () => import("pages/DbTodo.vue") },
     ]
   },
 
@@ -18,6 +19,7 @@ const routes = [
     path: '/:catchAll(.*)*',
     component: () => import('pages/ErrorNotFound.vue')
   }
+
 ]
 
 export default routes
