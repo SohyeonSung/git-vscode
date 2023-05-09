@@ -4,7 +4,7 @@
       <div class="weather">
         <div class="location-box">
           <div class="location">Seoul, South Korea</div>
-          <div class="date">Friday 27 April 2023</div>
+          <div class="date">Tuesday 2 May 2023</div>
         </div>
         <div class="weather-box">
           <div class="temperture">10℃</div>
