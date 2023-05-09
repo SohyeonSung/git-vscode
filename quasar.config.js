@@ -19,6 +19,7 @@ module.exports = configure(function (ctx) {
     // https://v2.quasar.dev/quasar-cli-webpack/prefetch-feature
     // preFetch: true,
 
+
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-webpack/boot-files
@@ -46,9 +47,7 @@ module.exports = configure(function (ctx) {
     ],
 
     // Quasar plugins
-    plugins: [
-      'Notify', 'Dialog','LocalStorage',
-    ],
+    plugins: ["Notify", "Dialog", "LocalStorage", "LoadingBar", "Loading"],
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-build
     build: {
