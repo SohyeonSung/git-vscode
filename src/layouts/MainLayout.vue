@@ -75,6 +75,12 @@ const linksList = [
     link: '/weather'
   },
   {
+    title: "db todo list",
+    caption: "vue + database",
+    icon: "chat",
+    link: "/dbtodo",
+  },
+  {
     title: 'Docs',
     caption: 'quasar.dev',
     icon: 'school',
